@@ -11,8 +11,8 @@ namespace Enemy
 
         private int _currentIndexWaypoint = 0;
         private float _waitTime = 2f;
-        private float _waitTimer = 0f;
-        private bool _isWaiting = false;
+        private float _waitTimer;
+        private bool _isWaiting;
 
         private void Update()
         {

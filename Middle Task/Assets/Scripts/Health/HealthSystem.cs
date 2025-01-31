@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
+using UnityEngine.UI;
 
 namespace Health
 {
@@ -9,6 +10,7 @@ namespace Health
     {
         public int MaxHealth = 100;
         public TextMeshProUGUI _healthUI;
+        public Image _hp;
         public int CurrentHealth;
 
         private void Start()
@@ -31,9 +33,11 @@ namespace Health
         
         private void UpdateHealthUI()
         {
-            if (_healthUI != null) // Проверяем, назначен ли UI
+            if (_healthUI != null && _hp != null) // Проверяем, назначен ли UI
             {
                 _healthUI.text = CurrentHealth.ToString();
+                float fillAmoutn = (float)CurrentHealth / MaxHealth;
+                _hp.fillAmount = fillAmoutn;
             }
         }
 
