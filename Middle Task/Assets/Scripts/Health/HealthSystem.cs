@@ -8,10 +8,11 @@ namespace Health
 {
     public class HealthSystem : MonoBehaviour
     {
-        public int MaxHealth = 100;
-        public TextMeshProUGUI _healthUI;
-        public Image _hp;
-        public int CurrentHealth;
+        public event Action OnDeath;
+        [SerializeField] private int MaxHealth = 100;
+        [SerializeField] private TextMeshProUGUI _healthUI;
+        [SerializeField] private Image _hp;
+        private int CurrentHealth;
 
         private void Start()
         {
@@ -33,7 +34,7 @@ namespace Health
         
         private void UpdateHealthUI()
         {
-            if (_healthUI != null && _hp != null) // Проверяем, назначен ли UI
+            if (_healthUI != null && _hp != null) 
             {
                 _healthUI.text = CurrentHealth.ToString();
                 float fillAmoutn = (float)CurrentHealth / MaxHealth;
@@ -45,7 +46,7 @@ namespace Health
         {
             if (CurrentHealth <= 0)
             {
-                Destroy(gameObject);
+                OnDeath?.Invoke();
             }
         }
     }

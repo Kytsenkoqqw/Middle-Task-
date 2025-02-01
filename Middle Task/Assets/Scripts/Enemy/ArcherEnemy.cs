@@ -8,19 +8,13 @@ public class ArcherEnemy : MonoBehaviour
 {
    [SerializeField] private float _detectionRadius = 8f;
    [SerializeField] private GameObject _projectilePrefab;
-   [SerializeField] private Transform _target;
    [SerializeField] private float _waitTime = 2f;
    [SerializeField] private float _waitTimer;
-   
+   [SerializeField] private Transform _shootPoint;
    
    private bool _isAttack;
    private bool _isWaiting = false;
-
-   private void Start()
-   {
-      _isAttack = false;
-   }
-
+   
    private void Update()
    {
       FindCharacter();
@@ -48,13 +42,11 @@ public class ArcherEnemy : MonoBehaviour
       if (_isAttack)
       {
          _waitTimer += Time.deltaTime;
-         
+
          if (_waitTimer >= _waitTime)
          {
-            var projectile = Instantiate(_projectilePrefab, transform.position, Quaternion.identity);
-            Vector3 direction = (_target.position - transform.position).normalized;
-            projectile.GetComponent<Projectile>().SetDirection(direction);
-            _waitTimer = 0;
+            var projectile = Instantiate(_projectilePrefab, _shootPoint.position, Quaternion.identity);
+            _waitTimer = 0f;
          }
       }
    }

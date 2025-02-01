@@ -8,21 +8,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/HunterEnemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PatrolEnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/HunterEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ArcherEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health/Healthbar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health/HealthSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PatrolEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health/HealthSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ArcherEnemy.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +69,9 @@
       <updated>1738068013940</updated>
       <workItem from="1738068045679" duration="8218000" />
       <workItem from="1738241780061" duration="3246000" />
-      <workItem from="1738326914902" duration="6452000" />
+      <workItem from="1738326914902" duration="9841000" />
+      <workItem from="1738415373691" duration="8557000" />
+      <workItem from="1738433502122" duration="978000" />
     </task>
     <servers />
   </component>

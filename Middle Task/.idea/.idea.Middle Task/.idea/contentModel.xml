@@ -18,7 +18,6 @@
             <e p="Projectile.cs" t="Include" />
           </e>
           <e p="Health" t="Include">
-            <e p="HealthBar.cs" t="Include" />
             <e p="HealthSystem.cs" t="Include" />
           </e>
         </e>
