@@ -14,15 +14,8 @@ public class ArcherEnemy : MonoBehaviour
    
    private bool _isAttack;
    private bool _isWaiting = false;
-   
-   private void Update()
-   {
-      FindCharacter();
-      StartShooting();
-   }
 
-
-   private void FindCharacter()
+   public void FindCharacter()
    {
       Collider[] colliders = Physics.OverlapSphere(transform.position, _detectionRadius);
 
@@ -33,6 +26,11 @@ public class ArcherEnemy : MonoBehaviour
             Debug.Log("Find CHARACTER");
 
             _isAttack = true;
+
+            if (_isAttack)
+            {
+               StartShooting();
+            }
          }
       }
    }

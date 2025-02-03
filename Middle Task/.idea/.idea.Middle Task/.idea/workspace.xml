@@ -15,15 +15,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PatrolEnemyAttack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/HunterEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health/Healthbar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PatrolEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ArcherEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health/HealthSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/State/BaseState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/State/PatrolingState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/HunterEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/State/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/State/PatrollingState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/State/ShootingState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ArcherEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PatrolEnemy.cs" />
       </list>
     </option>
   </component>
@@ -38,6 +45,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -72,7 +80,7 @@
       <workItem from="1738326914902" duration="9841000" />
       <workItem from="1738415373691" duration="8557000" />
       <workItem from="1738433502122" duration="3195000" />
-      <workItem from="1738585165591" duration="661000" />
+      <workItem from="1738585165591" duration="10163000" />
     </task>
     <servers />
   </component>
@@ -146,5 +154,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1738267763069" />
+    <state x="716" y="391" key="RiderGenerateDialog" timestamp="1738590586161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="716" y="391" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1738590586161" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1738594291076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1738594291076" />
   </component>
 </project>

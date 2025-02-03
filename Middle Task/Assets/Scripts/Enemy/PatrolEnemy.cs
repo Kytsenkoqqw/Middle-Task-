@@ -14,12 +14,7 @@ namespace Enemy
         private float _waitTimer;
         private bool _isWaiting;
 
-        private void Update()
-        {
-            Patrolling();
-        }
-
-        private void Patrolling()
+        public void Patrolling()
         {
             if (_isWaiting)
             {

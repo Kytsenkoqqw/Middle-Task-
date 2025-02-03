@@ -25,10 +25,15 @@ public class HunterEnemy : EnemyAttack
             if (colliders[i].GetComponent<CharacterBehaviour>())
             {
                 Debug.Log("Character is Find ");
-                transform.position  = Vector3.MoveTowards(transform.position, _target.position, _moveSpeed * Time.deltaTime) ;
+                MoveToPlayer();
             }
         }
     }
-
     
+    private void MoveToPlayer()
+    {
+        transform.position  = Vector3.MoveTowards(transform.position, _target.position, _moveSpeed * Time.deltaTime);
+    }
+
+
 }

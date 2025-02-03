@@ -8,7 +8,6 @@ public class CharacterBehaviour : MonoBehaviour
 {
     [SerializeField] private float _moveSpeed;
     [SerializeField] private HealthSystem _healthSystem;
-    
 
     private void Start()
     {
@@ -19,9 +18,9 @@ public class CharacterBehaviour : MonoBehaviour
     {
         float horizontalMove = Input.GetAxis("Horizontal") * _moveSpeed * Time.deltaTime;
         float verticalMove = Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime;
-
-        transform.Translate(horizontalMove, 0 , verticalMove);
-        transform.LookAt(transform);
+        
+        Vector3 moveDirection = new Vector3(horizontalMove, 0, verticalMove);
+        transform.Translate(moveDirection, Space.World);
     }
 
     private void OnDestroy()
