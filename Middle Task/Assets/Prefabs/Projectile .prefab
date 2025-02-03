@@ -132,7 +132,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -148,7 +148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aae023e695248941b0e6e8318f355b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedProjectile: 10
-  _waitTime: 3
-  _waitTimer: 0
-  _target: {fileID: 340697061462608745, guid: 3f57a00fe49a37c49aae9d4e62e9fd30, type: 3}
+  _healthSystem: {fileID: 338732323964617269, guid: 3f57a00fe49a37c49aae9d4e62e9fd30, type: 3}
+  _damage: 10
+  _speed: 15

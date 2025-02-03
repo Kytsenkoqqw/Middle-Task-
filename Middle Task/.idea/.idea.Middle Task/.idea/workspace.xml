@@ -15,15 +15,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PatrolEnemyAttack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/HunterEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health/Healthbar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PatrolEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health/HealthSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ArcherEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health/HealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Projectile.cs" />
       </list>
     </option>
   </component>
@@ -71,7 +71,8 @@
       <workItem from="1738241780061" duration="3246000" />
       <workItem from="1738326914902" duration="9841000" />
       <workItem from="1738415373691" duration="8557000" />
-      <workItem from="1738433502122" duration="978000" />
+      <workItem from="1738433502122" duration="3195000" />
+      <workItem from="1738585165591" duration="661000" />
     </task>
     <servers />
   </component>

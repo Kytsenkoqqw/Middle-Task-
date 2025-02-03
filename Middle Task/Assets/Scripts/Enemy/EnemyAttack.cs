@@ -7,8 +7,9 @@ namespace Enemy
     public class EnemyAttack : MonoBehaviour
     {
         [SerializeField] private HealthSystem _healthSystem;
-        [SerializeField] private int _damage = 10;
+        [SerializeField] private int _damage;
         
+        private void Awake() =>  _healthSystem = FindObjectOfType<HealthSystem>();
         
         private void OnCollisionEnter(Collision other)
         {

@@ -12,7 +12,7 @@ namespace Health
         [SerializeField] private int MaxHealth = 100;
         [SerializeField] private TextMeshProUGUI _healthUI;
         [SerializeField] private Image _hp;
-        private int CurrentHealth;
+        public int CurrentHealth;
 
         private void Start()
         {
